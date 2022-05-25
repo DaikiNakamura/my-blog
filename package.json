@@ -50,6 +50,7 @@
     "setup": "node ./bin/setup.js",
     "netlify:login": "netlify login",
     "netlify:deploy": "netlify deploy -d public -p",
-    "github:deploy": "gatsby build --prefix-paths && gh-pages -d public -r https://github.com/DaikiNakamura/my-blog.git"
+    "github:deploy": "gatsby build --prefix-paths && gh-pages -d public -r https://github.com/DaikiNakamura/my-blog.git",
+    "github:build": "gatsby build --prefix-paths"
   }
 }
