@@ -9,6 +9,7 @@ const Footer = () => (
       Built with <a href="https://contentful.com/">Contentful</a> and{' '}
       <a href="https://gatsbyjs.com">Gatsby</a> &middot;{' '}
       <a href="https://github.com/contentful/starter-gatsby-blog">Source</a>
+      {' '}| © 2022 <a href="https://twitter.com/naho04200222">Ryuka Myosotis</a>
     </div>
   </Container>
 )
