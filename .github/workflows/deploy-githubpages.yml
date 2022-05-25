@@ -3,6 +3,8 @@ name: Build and deploy website
 on:
   push:
     branches: [ master ]
+  repository_dispatch:
+    types: [update_contentful]
 
 jobs:
   build:
