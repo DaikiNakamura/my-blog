@@ -37,8 +37,8 @@ if (!spaceId || !accessToken) {
 module.exports = {
   pathPrefix: "/my-blog",
   siteMetadata: {
-    title: "Gatsby Contentful Starter",
-    description: "Official Contentful Gatsby Starter",
+    title: "RYUKA BLOG",
+    description: "RYUKA BLOG",
   },
   plugins: [
     "gatsby-transformer-sharp",
