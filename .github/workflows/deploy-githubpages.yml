@@ -16,10 +16,10 @@ jobs:
     - name: Install NPM packages
       run: npm ci
     - name: Build website
-      run: npm run github:build
       env:
         CONTENTFUL_SPACE_ID: ${{ secrets.CONTENTFUL_SPACE_ID }}
         CONTENTFUL_ACCESS_TOKEN: ${{ secrets.CONTENTFUL_ACCESS_TOKEN }}
+      run: npm run github:build
     - name: Deploy website
       uses: peaceiris/actions-gh-pages@v3
       with:
